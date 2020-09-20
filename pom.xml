@@ -29,7 +29,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <scope>provided</scope>
+            <scope>runtime</scope>
 
         </dependency>
 
@@ -38,7 +38,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-tomcat</artifactId>
             <!--排除内置tomcat jar包-->
-            <scope>provided</scope>
+            <scope>runtime</scope>
         </dependency>
         <!--**************************************************系统默认导入依赖 end***************************************************-->
 
