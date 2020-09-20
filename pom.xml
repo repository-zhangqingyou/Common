@@ -29,17 +29,16 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-            <scope>runtime</scope>
-
+<!--            <scope>provided</scope>-->
         </dependency>
 
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-tomcat</artifactId>
-            <!--排除内置tomcat jar包-->
-            <scope>runtime</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-tomcat</artifactId>-->
+<!--            &lt;!&ndash;排除内置tomcat jar包&ndash;&gt;-->
+<!--            <scope>provided</scope>-->
+<!--        </dependency>-->
         <!--**************************************************系统默认导入依赖 end***************************************************-->
 
         <!--**************************************************第三方导入依赖 start***************************************************-->
@@ -75,11 +74,11 @@
 
         <!-- 阿里数据库连接池 -->
 
-<!--        <dependency>-->
-<!--            <groupId>com.alibaba</groupId>-->
-<!--            <artifactId>druid-spring-boot-starter</artifactId>-->
-<!--            <version>1.1.9</version>-->
-<!--        </dependency>-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid-spring-boot-starter</artifactId>
+            <version>1.1.9</version>
+        </dependency>
 
 
         <!-- mybatis-plus begin =================================== -->
