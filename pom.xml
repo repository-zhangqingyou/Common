@@ -12,10 +12,12 @@
     </parent>
     <groupId>com.zhangqingyou.common</groupId>
     <artifactId>common</artifactId>
-    <version>0.0.1</version>
+    <version>1.0.1</version>
     <packaging>jar</packaging>
     <name>公共工具包</name>
     <description>java常用公共工具包</description>
+
+
 
     <properties>
         <java.version>1.8</java.version>
@@ -29,16 +31,16 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-<!--            <scope>provided</scope>-->
+            <!--            <scope>provided</scope>-->
         </dependency>
 
 
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-tomcat</artifactId>-->
-<!--            &lt;!&ndash;排除内置tomcat jar包&ndash;&gt;-->
-<!--            <scope>provided</scope>-->
-<!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>org.springframework.boot</groupId>-->
+        <!--            <artifactId>spring-boot-starter-tomcat</artifactId>-->
+        <!--            &lt;!&ndash;排除内置tomcat jar包&ndash;&gt;-->
+        <!--            <scope>provided</scope>-->
+        <!--        </dependency>-->
         <!--**************************************************系统默认导入依赖 end***************************************************-->
 
         <!--**************************************************第三方导入依赖 start***************************************************-->
@@ -65,12 +67,12 @@
 
 
         <!-- ======================================================== 数据库相关 ============================================================== -->
-<!--        <dependency>-->
-<!--            <groupId>mysql</groupId>-->
-<!--            <artifactId>mysql-connector-java</artifactId>-->
-<!--            <version>5.1.6</version>-->
-<!--            <scope>runtime</scope>-->
-<!--        </dependency>-->
+        <!--        <dependency>-->
+        <!--            <groupId>mysql</groupId>-->
+        <!--            <artifactId>mysql-connector-java</artifactId>-->
+        <!--            <version>5.1.6</version>-->
+        <!--            <scope>runtime</scope>-->
+        <!--        </dependency>-->
 
         <!-- 阿里数据库连接池 -->
 
@@ -138,7 +140,6 @@
         </dependency>
 
 
-
         <!--**************************************************第三方导入依赖 end***************************************************-->
 
 
@@ -152,14 +153,14 @@
                 <configuration>
                     <includeSystemScope>true</includeSystemScope>
                 </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <!-- 可以把依赖的包都打包到生成的Jar包中-->
-                            <goal>repackage</goal>
-                        </goals>
-                    </execution>
-                </executions>
+<!--                <executions>-->
+<!--                    <execution>-->
+<!--                        <goals>-->
+<!--                            &lt;!&ndash; 可以把依赖的包都打包到生成的Jar包中&ndash;&gt;-->
+<!--                            <goal>repackage</goal>-->
+<!--                        </goals>-->
+<!--                    </execution>-->
+<!--                </executions>-->
             </plugin>
             <!--过滤-->
             <plugin>
@@ -171,8 +172,6 @@
             </plugin>
         </plugins>
     </build>
-
-
 
 
 </project>
