@@ -13,9 +13,10 @@
     <groupId>com.zhangqingyou.common</groupId>
     <artifactId>common</artifactId>
     <version>1.0.1</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <name>公共工具包</name>
     <description>java常用公共工具包</description>
+
 
 
 
