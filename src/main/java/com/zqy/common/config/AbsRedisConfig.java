@@ -25,7 +25,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
  */
 @Configuration
 @EnableCaching
-public class RedisConfig extends CachingConfigurerSupport {
+public class AbsRedisConfig extends CachingConfigurerSupport {
 
     //缓存管理器
     @Bean
